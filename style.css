@@ -16,7 +16,6 @@ body, html {
 /* Estilização para a caixa de seleção de UF */
 #uf {
     background-color: #ffffff;
-    border: 2px solid #007bff; /* Azul para destacar */
     border-radius: 5px; /* Bordas arredondadas */
     padding: 0.375rem 1.5rem 0.375rem 0.75rem;
     font-size: 1rem;
@@ -38,4 +37,9 @@ body, html {
 /* Ajuste de margem entre o UF e outros campos para dar mais espaço */
 #uf {
     margin-top: 0.5rem;
+}
+
+/* styles.css */
+.btn-secondary {
+    margin-left: 10px;
 }

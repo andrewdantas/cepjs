@@ -6,6 +6,20 @@
     <!-- CSS Bootstrap -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <title>Cadastro de Clientes</title>
+    <style>
+        /* Estilo para evitar rolagem horizontal e vertical */
+        body, html {
+            overflow: hidden; /* Evita a rolagem tanto horizontal quanto vertical */
+            height: 100%;
+        }
+
+        /* Ajuste para garantir que o conteúdo ocupe toda a tela, mas sem exceder */
+        .container {
+            max-height: 100vh; /* Limita a altura do container à altura da tela */
+            overflow-y: auto; /* Permite que o conteúdo interno role se necessário */
+            padding-bottom: 1rem;
+        }
+    </style>
 </head>
 <body>
 <div class="container my-4">
@@ -45,13 +59,13 @@
         </div>
 
         <div class="row mb-3">
-            <div class="col-md-6">
+            <div class="col-md-6 mb-3">
                 <label for="cidade" class="form-label">Cidade:</label>
                 <input type="text" id="cidade" name="cidade" class="form-control">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mb-3">
                 <label for="uf" class="form-label">UF:</label>
-                <select name="uf" id="uf" class="form-select">
+                <select id="uf" name="uf" class="form-control">
                     <option value="" selected>Selecione o estado</option>
                     <option value="AC">AC</option>
                     <option value="AL">AL</option>
@@ -97,9 +111,9 @@
     </form>
 </div>
 
-    <script src="bootstrap/jquery-3.3.1.slim.min.js"></script>
-    <script src="bootstrap/popper.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+<script src="bootstrap/jquery-3.3.1.slim.min.js"></script>
+<script src="bootstrap/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

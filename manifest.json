@@ -1,0 +1,19 @@
+{
+    "name": "Cadastro de Clientes",
+    "short_name": "Cadastro",
+    "description": "Um aplicativo de cadastro de clientes, simples e eficiente.",
+    "start_url": "/cepjs",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#007bff",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "img/logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "scope": "/",
+    "lang": "pt-BR"
+}
